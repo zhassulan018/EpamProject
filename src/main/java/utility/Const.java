@@ -75,11 +75,15 @@ public class Const {
 
     public static final String MAIN = "/main";
     public static final String LOGIN = "/login";
+    public static final String LOGOUT = "/logout";
     public static final String ORDER = "/orders";
     public static final String BASKET = "/basket";
     public static final String PROFILE = "/profile";
     public static final String SIGN_UP = "/signup";
     public static final String ADDRESS = "/address";
+    public static final String ADD_BOOK = "/addbook";
+    public static final String LANGUAGE = "/language";
+    public static final String ERROR_LINK = "/error";
     //Error messages
 
     public static final String LOGIN_ERROR = "Invalid LoginId Or Password";
