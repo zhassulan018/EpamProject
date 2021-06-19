@@ -1,0 +1,1 @@
+2021-06-16 00:54:47.385 [http-nio-8080-exec-81] ERROR model.BasketModel.deleteBasketItem(BasketModel.java:132) - java.lang.NullPointerException: Cannot invoke "entity.User.getId()" because "user" is null

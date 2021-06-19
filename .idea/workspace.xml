@@ -9,48 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19928f84-c35c-4522-918f-3ca9ef6b9fba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.ME" beforeDir="false" afterPath="$PROJECT_DIR$/README.ME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AddBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AddBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BasketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/BasketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LanguageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/LanguageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/LogInService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LogoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/LogoutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProfileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/SignUpService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/EpamProject.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/AddBookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/AddressController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/BasketController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/LanguageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/LogInController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/LogoutController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/ProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/controller/SignUpController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/utility/ConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/utility/ConnectionPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/utility/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EpamProject/WEB-INF/classes/utility/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddBookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddressController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/BasketController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/LanguageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/LogInController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/LogoutController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/ProfileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/SignUpController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utility/ConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/ConnectionPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utility/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/Const.class" afterDir="false" />
-    </list>
+    <list default="true" id="19928f84-c35c-4522-918f-3ca9ef6b9fba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,11 +221,23 @@
       <workItem from="1623760647018" duration="1435000" />
       <workItem from="1623762394051" duration="5238000" />
       <workItem from="1624005922296" duration="3000" />
-      <workItem from="1624092710417" duration="4711000" />
+      <workItem from="1624092710417" duration="5015000" />
     </task>
+    <task id="LOCAL-00001" summary="Servlet fix">
+      <created>1624097752679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624097752679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Servlet fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlet fix" />
   </component>
 </project>
