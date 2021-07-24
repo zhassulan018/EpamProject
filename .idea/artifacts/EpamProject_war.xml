@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="EpamProject.war">
+    <root id="archive" name="BookStore.war">
       <element id="artifact" artifact-name="EpamProject:war exploded" />
     </root>
   </artifact>

@@ -2,6 +2,8 @@ package utility;
 
 import org.apache.log4j.Logger;
 
+import static utility.Const.EMAIL_REGEX;
+
 public class DataValidator {
     final static Logger logger = Logger.getLogger(DataValidator.class);
     private static final int passwordLength = 8;
@@ -16,10 +18,9 @@ public class DataValidator {
 
     public static boolean isEmail(String val) {
 
-        String emailreg = "^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
         if (!isNull(val)) {
             try {
-                return val.matches(emailreg);
+                return val.matches(EMAIL_REGEX);
             } catch (NumberFormatException e) {
                 logger.error(e);
                 return false;

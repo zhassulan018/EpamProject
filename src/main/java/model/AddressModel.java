@@ -22,7 +22,7 @@ public class AddressModel{
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, address.getCity());
             statement.setString(2, address.getStreet());
-            statement.setString(3, address.getNumHouse());
+            statement.setString(3, address.getHouseNumber());
             statement.setLong(4, user.getId());
             statement.executeUpdate();
             statement.close();

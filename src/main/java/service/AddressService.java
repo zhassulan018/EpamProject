@@ -14,13 +14,13 @@ import java.io.IOException;
 
 import static utility.Const.*;
 
-public class AddressService implements Service {
+public class    AddressService implements Service {
     final static Logger logger = Logger.getLogger(AddressService.class);
     protected Address populate(HttpServletRequest request){
         Address address = new Address();
         address.setCity(request.getParameter(CITY));
         address.setStreet(request.getParameter(STREET));
-        address.setNumHouse(request.getParameter(NUMBER_HOME));
+        address.setHouseNumber(request.getParameter(NUMBER_HOME));
         return address;
     }
 

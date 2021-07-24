@@ -40,9 +40,9 @@ public class SignUpService implements Service {
             if(!DataValidator.isEmail(request.getParameter(EMAIL))){
                 MessageUtil.setErrorMessage(EMAIL_ERROR,request);
                 request.getServletContext().getRequestDispatcher(SIGNUP_PAGE).forward(request,response);
-            }else if(DataValidator.isNull(request.getParameter(FIRST_NAME)) ||DataValidator.isNull(request.getParameter(LAST_NAME))
-            || DataValidator.isNull(request.getParameter(EMAIL)) || DataValidator.isNull(request.getParameter(PHONE))
-            || DataValidator.isNull(request.getParameter(PASSWORD)) || DataValidator.isNull(request.getParameter(CONFIRM_PASSWORD))){
+            }else if(checkWrongInput(request.getParameter(FIRST_NAME), request.getParameter(LAST_NAME),
+                    request.getParameter(EMAIL), request.getParameter(PHONE),
+                    request.getParameter(PASSWORD),request.getParameter(CONFIRM_PASSWORD))){
                 MessageUtil.setErrorMessage(EMPTY_ERROR,request);
                 request.getServletContext().getRequestDispatcher(SIGNUP_PAGE).forward(request,response);
             } else {
@@ -55,5 +55,11 @@ public class SignUpService implements Service {
             logger.error(e);
             e.printStackTrace();
         }
+    }
+
+    public boolean checkWrongInput(String firstname,String lastname,String email,String phone, String password, String confirmPassword){
+        return DataValidator.isNull(firstname) ||DataValidator.isNull(lastname)
+                || DataValidator.isNull(email) || DataValidator.isNull(phone)
+                || DataValidator.isNull(password) || DataValidator.isNull(confirmPassword);
     }
 }

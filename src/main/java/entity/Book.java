@@ -1,5 +1,7 @@
 package entity;
 
+import java.util.Objects;
+
 public class Book {
     private Long id;
     private String name;
@@ -54,5 +56,30 @@ public class Book {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Book)) return false;
+        Book book = (Book) o;
+        return amount == book.amount && Objects.equals(id, book.id) && Objects.equals(name, book.name) && Objects.equals(cost, book.cost) && Objects.equals(url, book.url) && Objects.equals(briefInfo, book.briefInfo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, cost, url, briefInfo, amount);
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", cost=" + cost +
+                ", url='" + url + '\'' +
+                ", briefInfo='" + briefInfo + '\'' +
+                ", amount=" + amount +
+                '}';
     }
 }

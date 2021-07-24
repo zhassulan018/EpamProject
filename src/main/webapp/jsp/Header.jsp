@@ -10,7 +10,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%String lang = (String) session.getAttribute("lang");%>
 <fmt:setLocale value="<%=lang%>" />
-<fmt:setBundle basename="Language_Language" />
+<fmt:setBundle basename="Language" />
 
 <!DOCTYPE html>
 <html lang="en">

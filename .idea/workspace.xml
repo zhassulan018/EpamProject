@@ -9,7 +9,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19928f84-c35c-4522-918f-3ca9ef6b9fba" name="Default Changelist" comment="" />
+    <list default="true" id="19928f84-c35c-4522-918f-3ca9ef6b9fba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EpamProject_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/EpamProject_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EpamProject_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/EpamProject_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filter/ErrorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/ErrorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/AddressModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/AddressModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/SignUpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/SignUpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/DataValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/DataValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Language_Language_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Language_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Language_Language_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Language_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EpamProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/EpamProject.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/DataValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/DataValidator.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,13 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,7 +246,8 @@
       <workItem from="1623760647018" duration="1435000" />
       <workItem from="1623762394051" duration="5238000" />
       <workItem from="1624005922296" duration="3000" />
-      <workItem from="1624092710417" duration="5015000" />
+      <workItem from="1624092710417" duration="6529000" />
+      <workItem from="1626545293403" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="Servlet fix">
       <created>1624097752679</created>
@@ -230,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624097752679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bug fix">
+      <created>1624098087596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624098087596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +271,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Servlet fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet fix" />
+    <MESSAGE value="Bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix" />
   </component>
 </project>
